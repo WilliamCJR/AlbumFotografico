@@ -1,0 +1,53 @@
+<%- include("template/cabecera",{tituloWeb:"AlbumFotografico"})%>
+<body onload="estado_botones_2()" class="Estilofondo">
+    <%- include("template/plantilla_nav")%>
+
+    <div id="contenedor">
+      <div id="central">
+        <div id ="login">
+          <div class="titulo">
+            Imagenes
+          </div>
+          <form id  = "loginform" name = "datos" action = "/imagenes" method = "post">
+            
+            <input type  = "text" id  = "nombre" name = "nombre" placeholder="Nombre" required>
+            <input type  = "text" id  = "url" name = "url"  placeholder="URL imagen" required>
+            <textarea class="form-control" id="descripcion" name = "descripcion"  rows="3" placeholder="Descripcion" required></textarea>
+            
+            <button type = "button" id = "bt2" name = "bt2"   data-bs-toggle="modal" data-bs-target="#validacion_url" onclick="actualizar()">Validar URL</button>
+            <button type = "submit" name = "bt1" >Agregar</button>
+      
+          </form>
+        </div>
+      </div>
+      
+    </div>
+</body>
+
+<div class="modal fade" id="validacion_url" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Validacion URL de imagen</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <img id = "imagen_modal" src="" style="width: 470px;
+            height: 300px;">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" >Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</html>
+
+
+
+
+
+
+
+

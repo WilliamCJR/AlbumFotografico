@@ -1,0 +1,170 @@
+.textoh5{
+  font-size: 10vw;
+    color: rgb(0, 0, 0);
+    font-family: "Times New Roman";
+    font-weight: bold;
+    text-transform: capitalize;
+
+}
+.textoh3{
+  font-size: 3vw;
+    color: rgb(0, 0, 0);
+    font-family: "Times New Roman";
+    font-weight: bold;
+    text-transform: capitalize;
+
+}
+
+.EstiloTexto1{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: "Times New Roman";
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+}
+.EstiloTexto2{
+  font-size: 20px;
+  color: rgb(204, 207, 204);
+  font-family: "Times New Roman";
+  font-weight: bold;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.Estilofondo {
+  font-family: 'Overpass', sans-serif;
+  font-weight: normal;
+  font-size: 100%;
+  color: #1b262c;
+  
+  margin: 0;
+  background-repeat: no-repeat;
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/105/121/88/old-journey-photo-antique-wallpaper-preview.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.nav_personalizado{
+  background-color: hsl(226deg 47% 20% / 80%); 
+   font-size: large;
+}
+
+#contenedor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  margin: 0;
+  padding: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  width: 100%;
+  height: 100%;
+}
+
+#central {
+  max-width: 400px;
+  width: 100%;
+}
+
+.titulo {
+  font-size: 250%;
+  color:#bbe1fa;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.titulo2 {
+  font-size: 280%;
+  color:#0c0e5d;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.parrafo {
+  font-size: 120%;
+  color:#eceff2;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.parrafo2 {
+  font-size: 110%;
+  color:#e6f7e6;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.texto {
+  font-size: 160%;
+  color:#bbe1fa;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+
+#login {
+  width: 100%;
+  padding: 30px 30px;
+  background-color: hsl(226deg 47% 20% / 70%);
+  
+  -webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+  -moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+  box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+  
+  border-radius: 3px 3px 3px 3px;
+  -moz-border-radius: 3px 3px 3px 3px;
+  -webkit-border-radius: 3px 3px 3px 3px;
+  
+  box-sizing: border-box;
+}
+
+#login input {
+  font-family: 'Overpass', sans-serif;
+  font-size: 110%;
+  color: #1b262c;
+  
+  display: block;
+  width: 100%;
+  height: 40px;
+  
+  margin-bottom: 10px;
+  padding: 5px 5px 5px 10px;
+  
+  box-sizing: border-box;
+  
+  border: none;
+  border-radius: 3px 3px 3px 3px;
+  -moz-border-radius: 3px 3px 3px 3px;
+  -webkit-border-radius: 3px 3px 3px 3px;
+}
+
+#login input::placeholder {
+  font-family: 'Overpass', sans-serif;
+  color: #b3b1b1;
+}
+#login textarea::placeholder {
+  font-family: 'Overpass', sans-serif;
+  color: #b3b1b1;
+}
+
+#login button {
+  font-family: 'Overpass', sans-serif;
+  font-size: 110%;
+  color:#1b262c;
+  width: 100%;
+  height: 40px;
+  border: none;
+  
+  border-radius: 3px 3px 3px 3px;
+  -moz-border-radius: 3px 3px 3px 3px;
+  -webkit-border-radius: 3px 3px 3px 3px;
+  
+  background-color: #bbe1fa;
+  
+  margin-top: 10px;
+}
+
+#login button:hover {
+  background-color: #cae2f1;
+  color:#000000;
+}
+
+

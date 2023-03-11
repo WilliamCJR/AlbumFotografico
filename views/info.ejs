@@ -1,0 +1,30 @@
+<%- include("template/cabecera",{tituloWeb:"AlbumFotografico"})%>
+<body onload="estado_botones_4()" class="Estilofondo">
+    <%- include("template/plantilla_nav")%>
+     pagina infromacion 
+     <div id="contenedor">
+        <div id="central">
+          <div id ="login">
+            <div class="titulo">
+                <%=nombre_album %>
+            </div>
+            <div  class = "parrafo">
+                Propietario: <%=propíetario %>
+            </div>
+            <div class = "parrafo2"><%=descripcion %></div>
+            <form id  = "loginform" name = "datos" action = "/album" method = "get">
+
+                <button type = "submit" name = "bt1"  >Ver Album</button>
+          </div>
+        </div>
+        
+      </div>
+</body>
+
+</html>
+
+
+
+
+
+

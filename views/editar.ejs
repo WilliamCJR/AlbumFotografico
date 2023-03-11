@@ -1,0 +1,32 @@
+<%- include("template/cabecera",{tituloWeb:"AlbumFotografico"})%>
+<body onload="estado_botones_3()" class="Estilofondo">
+    <%- include("template/plantilla_nav")%>
+      
+    <div id="contenedor">
+      <div id="central">
+        <div id ="login">
+          <div class="titulo">
+           Editar Album
+          </div>
+          <form id  = "loginform" name = "datos" action = "/editar" method = "post">
+            
+            <input type  = "text" id  = "nombre" name = "nombre" placeholder="Nombre del Album" required>
+            <input type  = "text" id  = "propietario" name = "propietario"  placeholder="Propietario" required>
+            <textarea class="form-control" id="descripcion" name="descripcion" rows="3" placeholder="Descripcion" required></textarea> 
+
+            <button type = "submit" name = "bt1"  >Editar</button>
+      
+          </form>
+        </div>
+      </div>
+      
+    </div>
+</body>
+
+
+</html>
+
+
+
+
+
